@@ -1,0 +1,17 @@
+h3, p{
+    color: whitesmoke;
+}
+
+.pokecard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color:cornflowerblue;
+    
+    height: 250px;
+    width: 30%;
+
+    margin-top: 2em;
+}

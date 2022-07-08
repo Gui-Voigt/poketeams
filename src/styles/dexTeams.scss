@@ -1,0 +1,41 @@
+.DexTeams{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    nav{
+        
+        ul{
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+            li{
+                padding: .5em;
+                cursor: pointer;
+            }
+        } 
+    }
+        
+        
+    section{
+
+        .pokedex{
+            width: auto;
+            height: auto;
+            min-height: 100vh;
+            background-color: brown;
+            
+            padding: 0 2em 2em;
+            
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+    }
+        
+
+}
